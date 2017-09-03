@@ -6,7 +6,7 @@ Author : roottraveller
 Date : June 2013
 
 work domain : backend developer, developed an admin panel interface as 
-              middle layey between actual website and database.
+              middle layer between actual website and database.
               
 
 All right reserve. copyright @ NIT Jamshedpur. 
