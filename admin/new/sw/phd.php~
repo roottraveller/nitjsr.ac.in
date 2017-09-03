@@ -1,0 +1,281 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../new/css/style1.css" />
+<link rel="stylesheet" type="text/css" href="../new/css/reset.css"/>
+
+
+   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+</head>
+<body>
+<div id="bg" >
+
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>FEE STRUCTURE FOR Ph.D PROGRAMME FOR THE SESSION 2013-14</span>
+</div>
+<div class="pagecontent">
+<p>Following are the details of admissible fee:<br/><br/>
+<?php $i=0;?>
+<table class="pagetablecontent_new" border="0" height="400px"width="100%">
+	<tr class="tablehead">
+                <td width="70px" rowspan="2"><center>Sl. No.</center></td>
+            <td rowspan="2"><center>Head of Fees</center></td>	
+            <td colspan="2"><center>AUTUMN SEMESTER</center></td>
+            <td colspan="2"><center>SPRING SEMESTER</center></td></tr>
+           <tr class="tablehead"> <td><center>For General Category<br/>(in Rupees)</center></td>
+            <td><center>For SC / ST Category<br/>(in Rupees)</center></td>
+            <td><center>For General Category<br/>(in Rupees)</center></td>
+            <td><center>For SC / ST Category<br/>(in Rupees)</center></td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>"><td colspan="6"><strong>&nbsp;&nbsp;A. &nbsp;&nbsp;Admission / Tuition Fees&nbsp;&nbsp; (IRG)</strong></td></tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>1</td>
+<td align="left">Admission Processing Fee</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>00.00</td>
+<td>00.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>2</td>
+<td align="left">Tuition Fee</td>
+<td>17500.00</td>
+<td>17500.00</td>
+<td>17500.00</td>
+<td>17500.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td></td>
+<td><strong>Total</strong></td>
+<td><strong>18500.00</strong></td>
+<td><strong>18500.00</strong></td>
+<td><strong>17500.00</strong></td>
+<td><strong>17500.00</strong></td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+<td colspan="6"><strong>&nbsp;&nbsp;B. &nbsp;&nbsp;Institute Fees &nbsp;&nbsp;(Common for all students)</strong></td></tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>1</td>
+<td align="left">Electric Charge</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>2</td>
+<td align="left">Water Charge</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>3</td>
+<td align="left">e-campus Fee</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>4</td>
+<td align="left">Identity Card</td>
+<td>100.00</td>
+<td>100.00</td>
+<td>00.00</td>
+<td>00.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>5</td>
+<td align="left">Examination Fee</td>
+<td>600.00</td>
+<td>600.00</td>
+<td>600.00</td>
+<td>600.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>6</td>
+<td align="left">Training & Placement</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>7</td>
+<td align="left">Bus Charge</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>8</td>
+<td align="left">Library</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>9</td>
+<td align="left">Computer & Internet</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>10</td>
+<td align="left">Students Welfare</td>
+<td>300.00</td>
+<td>300.00</td>
+<td>300.00</td>
+<td>300.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>11</td>
+<td align="left">Sports</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>12</td>
+<td align="left">Cultural & Technical Activities</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>1000.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td colspan="2"><strong>Total</strong></td>
+<td><strong>8500.00</strong></td>
+<td><strong>8500.00</strong></td>
+<td><strong>8400.00</strong></td>
+<td><strong>8400.00</strong></td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+<td colspan="6"><strong>&nbsp;&nbsp;C. &nbsp;&nbsp;Group Insurance &nbsp;&nbsp;(Fees will be as per actual)</strong></td></tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>1</td>
+<td align="left">Insurance Fee</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+<td>500.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+<td colspan="6"><strong>&nbsp;&nbsp;D. &nbsp;&nbsp;One Time Payment &nbsp;&nbsp;(at admission)</strong></td></tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>1</td>
+<td align="left">Institute Caution Money<br/>(Refundable)</td>
+<td>10000.00</td>
+<td>10000.00</td>
+<td>00.00</td>
+<td>00.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>2</td>
+<td align="left">Development Fund</td>
+<td>10000.00</td>
+<td>10000.00</td>
+<td>00.00</td>
+<td>00.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td>3</td>
+<td align="left">Alumni Membership</td>
+<td>1000.00</td>
+<td>1000.00</td>
+<td>00.00</td>
+<td>00.00</td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td colspan="2"><strong>Total</strong></td>
+<td><strong>21000.00</strong></td>
+<td><strong>21000.00</strong></td>
+<td><strong>00.00</strong></td>
+<td><strong>00.00</strong></td>
+</tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>" align="center">
+<td colspan="2"><strong>Grand Total &nbsp;&nbsp;(A+B+C+D)</strong></td>
+<td><strong>48500.00</strong></td>
+<td><strong>48500.00</strong></td>
+<td><strong>26400.00</strong></td>
+<td><strong>26400.00</strong></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col2">
+<?php include '../sidepanel.php'?>
+</div>
+<div class="clear"></div/>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

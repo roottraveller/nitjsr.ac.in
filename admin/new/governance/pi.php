@@ -1,0 +1,133 @@
+<?php
+error_reporting(0);
+$root='../';
+include '../department/auth.php';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="">
+<head>
+
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />
+
+ <link rel="stylesheet" type="text/css" href="<?php echo $root?>new/css/style1.css" />      		               
+														<link rel="stylesheet" type="text/css" href="<?php echo $root?>new/css/reset.css" />
+
+</head>
+
+
+<body>
+<!--head included here-->
+<div id="bg">
+<?php include $root.'header.php' ?>
+<!--head inclusion ends--> 
+</div> 
+<!-- Stylesheet -->
+
+<script>
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function() {
+	
+ 
+	$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});	
+});
+</script>
+
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>Professor Incharge</span>
+</div>
+<div class="pagecontent">
+<!--<span class="pagesubheading">Electrical Engineering</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />-->
+<table class="pagetablecontent">
+
+<table class="pagetablecontent" border="0" align="center" style="width:650px;">
+<tr class="tablehead">
+                
+		<td style="width:320px;">Serving As</td>
+<td>Name</td>
+		<td>Email-id</td>
+		<td>Contact Details</td>
+    </tr>
+<?php
+    mysql_select_db(nit); 
+    $objResult = sprintf("select * from pi order by Post");
+			$result=mysql_query($objResult);
+    while($row = mysql_fetch_array($result))
+			{
+				
+			
+    ?>
+	 <tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+	
+	<td><?php echo $row['Post'] ; ?></td>
+<td><?php echo $row['Name'] ; ?></td>
+	<td><a href="mailto:<?php echo $row['Email']; ?>"><?php echo $row['Email']; ?></td>
+	<td><?php echo $row['Phone'] ; ?></td>
+	 </tr>
+	<?php }?>
+	
+	</table>
+
+
+
+</div>
+</div>
+</div>
+<div class="col2">
+<?php include '../sidepanel.php'?>
+</div>
+<!--sidetab ends--> 
+<?php $root='../';?>
+<!--footer starts here -->
+<div class="clear"></div>
+</br>
+<?php include '../footer.php'?>
+</body>
+
+</html>

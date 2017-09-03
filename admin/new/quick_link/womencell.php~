@@ -1,0 +1,164 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="">
+<head>
+
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />
+
+ <link rel="stylesheet" type="text/css" href="<?php echo $root?>new/css/style1.css" />  
+<link rel="stylesheet" type="text/css" href="<?php echo $root?>new/css/reset.css" />      		               
+														
+
+</head>
+
+
+<body>
+<!--head included here-->
+<div id="bg">
+<?php include $root.'header.php' ?>
+<!--head inclusion ends--> 
+</div> 
+<!-- Stylesheet -->
+
+<script>
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function() {
+	
+ 
+	$('#toTop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});	
+});
+</script>
+
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>Women's Cell</br></span>
+</div>
+<div class="pagecontent">
+<p><span class="pagesubheading">Mission</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+</p><p>
+<ul>
+<li>To work towards a <b>gender sensitive and congenial environment</b>.
+<li>To provide guidelines for protection from sexual harassment and right to live with dignity.
+</ul>
+</br>
+</p>
+
+<p><span class="pagesubheading">Aims &amp; Objectives</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+</p>
+<p>
+<ul>
+<li>To provide a <b>Safe Working Environment</b> in which women and girls can wok and study without threats to their security.
+<li>To safeguard the issues concerning all women and girls working or studying in the institute.
+<li>To deal with the cases of Sexual/Psychological/Emotional Harassment in an appropriate manner.
+</ul></br>
+</p><p>
+<span class="pagesubheading">About us</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" /></p>
+<p>Women's Cell,NIT Jamshedpur was established in Nov,2005 to ensure a safe and secure working environment for all the women in the institute.The committee consists of following members:</p><p></br></p>
+<table class="pagetablecontent_new" border="0" height="200px"width="100%">
+	<tr class="tablehead" align="left">
+            <td>Name</td>
+            <td>&nbsp;Will Serve as</td>	
+            <td>Email Id </td>
+            <td>Contact </td>
+    </tr>
+	<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+            <td><a href="../faculty/index.php?id=109016" title="Click to view Profile">Dr. Prabha Chand</a></td>
+            <td> Chairperson</td>
+            <td> <a href="mailto:pchand.me@nitjsr.ac.in"  class="pagelink">pchand.me@nitjsr.ac.in</a></td>
+            <td> +91-9431382699</td>
+    </tr>
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+            <td><a href="../faculty/index.php?id=107002" title="Click to view Profile">Dr. Maninder Kapoor</a></td>
+            <td> Member</td>
+            <td><a href="maninder.kapoor08@gmail.com"  class="pagelink"> maninder.kapoor08@gmail.com</a></td>
+            <td>+91-7209805149</td>
+    </tr>
+  <tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+            <td>Mrs. Saraswati Tanti</td>
+            <td> Convenor</td>
+            <td><a href="saraswatytanty@yahoo.co.in"  class="pagelink">saraswatytanty@yahoo.co.in </a></td>
+            <td> +91-9955125841</td>
+    </tr>
+</table>
+
+<p></br>Besides,all the woman and girls teaching or studying in the institute are the members of this committee. <p></br></p>
+</p><p>
+<span class="pagesubheading">What Constitutes Sexual Harassment?</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" /></p>
+<p>Each such incident (of harassment) results in violation of the fundamental rights of &quot;<b>gender equality</b>&quot; and the &quot;<b>right to life and liberty</b>&quot;. It is a clear violation of the rights under Articles 14, 15 and 21 of the Constitution. One of the logical consequences of such an incident is also the violation of the victims fundamental right under Article 19 (1)(g) &lsquo;to practice any profession or to carry out any occupation, trade or business&prime;. Such violations, therefore, attract remedy under Article 32 for the enforcement of these fundamental rights of women.</p><p> Any unwelcome or unwanted sexually determined behaviour (physical,verbal or non verbal contact) violating any woman's dignity comes under sexual harassment. It also includes 
+gender based discrimination.<p></br></p></p>
+<p><span class="pagesubheading">Who can approach the cell?</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+</p><p>Any woman employee or female student of NIT Jamshedpur.<p></br></p></p>
+<p><span class="pagesubheading">How to lodge a complaint ?</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+</p><p>The person concerned can contact personally /through phone/write Email to any member of the cell. The identity of the concerned person will remain confidential.</p>
+<p>Care would be taken to handle the issue in a sensitive manner and dignity of the person will be protected.</p>
+</div>
+</div>
+</div>
+<div class="col2">
+<?php include '../sidepanel.php'?>
+</div>
+
+<!--sidetab ends--> 
+<?php $root='../';?>
+<!--footer starts here -->
+<div class="clear"></div>
+</br>
+<?php include '../footer.php'?>
+</body>
+
+</html>
+

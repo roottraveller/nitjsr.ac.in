@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+a{cursor:pointer;}
+.pageheading{
+	border:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	word-spacing:5px;
+	font-size:22px;
+	color:#109aad;
+	text-transform:capitalize;
+	background-image: url(../images/heading_top.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	display:inline-block;
+	padding:0 0 0 0;
+	border-bottom: 2px solid #CCCCCC;
+	text-align:left !important;
+}
+.pageheading span{
+	padding:0 0 0 0;
+	padding-left:10px;
+}
+.pageheading tr td{
+	padding:0px 0px 0px 15px;
+	width:750px;
+    border-bottom: 2px solid #CCCCCC;
+    clear: both;
+    font-size: 1.5em;
+    font-weight: normal;
+	background-image: url(../images/heading_top.jpg);
+	background-repeat:no-repeat;
+	white-space:normal;
+}
+.pageheading tr td label{
+	font-family:Tahoma, Geneva, sans-serif;
+	word-spacing:5px;
+	font-size:22px;
+	color:#109aad;
+	text-transform:capitalize;
+	text-align: inherit;
+}
+.pagecontent img{padding:1px;}
+.pagecontent{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	width:95%;
+	padding-top:10px;
+	float:left;
+	display:inline-block;
+	border:none;
+	line-height:18px;
+	text-align:center!important;
+}
+.pagecontent p{
+	text-align:justify;
+	width:100%;
+}
+.pagecontent ul,.pagecontent ol{
+	text-align:justify;
+}
+.pagecontent p img {
+	/*margin:10 auto 0 auto;*/
+}
+.pagecontent tr{
+	text-align:justify;
+}
+.pagecontent tr td{
+	padding-top:10px;
+	padding-left:20px;
+	vertical-align:top;
+}
+.pageimg{
+	width:650px;
+	height:250px;
+	margin:10px 0px 0px 0px;
+	border:solid thin #CCCCCC;;
+	-moz-box-shadow: 5px 5px 4px #666;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+
+}
+.pagesubheading{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#0099CC;
+	font-weight:bold;
+	clear:both;
+	display:block;
+	text-align:justify;
+	padding-bottom:1px;
+}
+.pagelists{
+	list-style-type:none;
+}
+.pagelists li{
+	padding:0px 0px 10px 25px;
+	background:url(../images/list.gif) no-repeat left -1px;
+	
+}
+.pagelists li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0000CC;
+	/*color:#272828;*/
+	text-decoration:none;
+}
+.pagelists li a:hover{
+	color: #c80303;
+	font-weight:bold;
+}
+.pagetablecontent{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	margin:10px auto 20px auto;
+	width:530px;
+	border:inset thin #666666;
+}
+.pagetablecontent tr{
+	text-align:left;
+}
+.pagetablecontent tr td{
+	vertical-align:central;
+	width:210px;
+	padding:5px 10px 5px 10px;
+}
+.pagetablecontent tr td a{
+	color:#0099CC;
+}
+.pagetablecontent tr td a:hover{
+	color:#C80303;
+}
+.pagetablecontent tr td.companyName{
+	text-align:left;
+	width:400px;
+}
+.pagetablecontent tr td.noStudent{
+	text-align:center;
+	width:100px;
+}
+.facultytablecontent{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	margin:10px auto 20px auto;
+	width:530px;
+	border:inset thin #666666;
+}
+.facultytablecontent tr{
+	text-align:left;
+}
+.facultytablecontent tr td{
+	vertical-align:central;
+	padding:5px 10px 5px 10px;
+}
+.facultytablecontent tr td a{
+	color:#009;
+}
+.facultytablecontent tr td a:hover{
+	color:#C80303;
+}
+.tablehead {
+	/*background-color:#4f81bd;*/
+	background-color:#4f81bd;
+	font-weight:bold;
+	color:#FFF;
+}
+.tabledark {
+	/*background-color:#BEE6F3;*/
+	background-color:#d0d8e8;
+}
+.tablelight {
+	/*background-color:#E3F0F4;*/
+	background-color:#e9edf4;
+}
+.backbtn{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:10px;
+	padding-left:0px;
+	display:inline-block;
+}
+a.backbtn{
+	color:#0000FF;
+	text-decoration:none;
+}
+a.backbtn:hover{
+	color: #c80303;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.pagelink{
+	color:#0000FF;
+}
+.pagelink:hover{
+	text-decoration:underline;
+}
+.pagetablestyle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	margin:10px auto 20px auto;
+	width:600px;
+}
+.pagetablestyle tr{
+	text-align:left;
+}
+.pagetablestyle tr td{
+	width:auto;
+	vertical-align:central;
+	padding:5px 10px 5px 10px;
+}
+.gallery{-moz-box-shadow:0px 5px 25px 0px #0F0F0F;-webkit-box-shadow:0px 5px 25px 0px #0F0F0F;box-shadow:0px 5px 25px 0px #0F0F0F;-moz-border-radius: 0px; -webkit-border-radius: 0px; _border:solid medium  #666; border:solid medium  #666\9; *border:solid medium  #666; display:inline-block; height:400px; z-index:1; width:600px; }
+.facultyimg
+{
+	width:123px;
+	height:150px;
+	float:left;
+	margin:5px 20px 20px 0px;
+	border:solid thin #CCCCCC;;
+	-moz-box-shadow: 5px 5px 4px #666;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;	
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* Global align classes */
+
+.left {
+	text-align: inherit;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.full {
+	text-align: justify
+}
+
+/* Image and table specific aligns */
+
+img.left, table.left {
+	float: left;
+	text-align: inherit;
+}
+
+img.center, table.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: inherit;
+}
+
+img.center {
+	display: block;
+}
+
+img.right, table.right {
+	float: right;
+	text-align: inherit;
+}
+
+
+pre {
+	font-size: 10px;
+}
+
+.example1 {
+	font-weight: bold;
+	font-size: 14px
+}
+
+.example2 {
+	font-weight: bold;
+	color: #FF0000
+}
+
+.tablerow1 {
+	background-color: #BBBBBB;
+}
+
+thead {
+	background-color: #FFBBBB;
+}
+
+tfoot {
+	background-color: #BBBBFF;
+}
+.pageftablecontent{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	margin:10px auto 20px auto;
+	width:430px;
+}
+.pageftablecontent tr{
+	text-align:center;
+}
+.pageftablecontent tr td{
+	vertical-align:central;
+	padding:5px 0px 5px 0px;
+}

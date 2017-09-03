@@ -1,0 +1,75 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur | Student Councelling Center</title>  
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+
+
+<div class="main_content">
+
+<div class="pagecontent">
+<div class="pageheading">
+  <span>Students Counselling Centre | Appointment</span>
+</div>
+<p>
+</br></p>
+<table class="pagetablecontent" border="2" style="width:680px;">
+<span class="pagesubheading">Location &amp; Timings</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+  <tr class="tablelight">
+    <td><b>Student Counselling Centre</b><br />
+		National Institute of Technology Jamshedpur<br />
+		Jamshedpur-831014,<br />
+		Jharkhand, INDIA<br />
+		Tel:
+    </td>
+    <td><ul>
+    		<li>9:00 AM to 5.30 PM, Monday to Friday</li>
+			<li>9:00 AM to 1.00 PM on Saturday</li>
+			<li>Sunday holiday</li>
+			<li>24 hours emergency services are available</li>
+        </ul>
+		<b>For an appointment:</b>
+		<ul>
+        	<li>Call Tel:</li>
+			<li>Walk-in and take appointment</li>
+			<li>Student is required to fill up a personal counselling record sheet</li>
+		</ul>
+    </td>
+  </tr>
+  </table>
+<img class="pageimg img" src="img/poster1.jpg" style="height: 500px" alt="Student Councelling Center"   title="Student Councelling Center"/>
+</div>
+</div>
+</div>
+<div class="col2" >
+<!--sidetab starts here-->
+<?php include 'sidepanel.php' ?>
+</div>
+<!--sidetab ends-->
+<div class="clear"></div>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

@@ -1,0 +1,16 @@
+.webteamboxl{
+width:350px;
+height:110px;
+background-color:#dfdfdf;
+float:left;
+color:#000;
+font-size:14px;
+}
+.webteamboxr{
+width:350px;
+height:110px;
+background-color:#dfdfdf;
+float:right;
+color:#000;
+font-size:14px;
+}

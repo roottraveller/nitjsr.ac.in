@@ -1,0 +1,108 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >
+
+<?php include $root.'newpage.php' ?>
+</div>
+
+<?php
+	$company=array('ABB','ACC Cements','Accenture','Adage Auto','Adani Group','Ador Welding','Adhunik Steel','AFCONS','Airvana','Allgo Systems','Alstom','Amazon','Amdocs','Apollo Tyre','Applied Materials','Arcelor Mittal','Areva','Aricent','Ashiana Builders','Ashok Leyland','ATOS','Belzabar','Bharti Infratel','Bhushan Steel','Birla Soft','BLK Construction','BOC Inia LTD.','Bollineni Castings &amp; Steel Ltd.','BPCL','Canara Bank','Caritor','CCCL','CIL','Comsat MAX','Crompton Greaves','CSC','CESC','Commvault','Comviva','CTS','Cummins India','Deloitte','DRDO','DVC','Eicher Motors','Electro Steel','ERA Group','Ericsson','ESSAR Group','ESSPL','FleetGuard','Flextronics','FMC Technologies','Gammon India','Gati Infrastructure','Global Logic','HCC','HCL','HCL Infinet','HDIL','Head Strong','Hero Honda','HINDALCO','HPCL','Hughes Software','Hutchinson','IBM','IDBI Bank','Idea','I-Flex','Incture Technologies','India Resources Ltd.','Indian Navy','Indus Logic','Infosys','International Auto','IOCL','ISMT','ISPAT Industries','ISWP','ITC Infotech','ITD Cementation','ITW Signode','J K Tyres','JAL','Jamshedpur CAPCPL','Jaypee Group','Jindal South West','Jindal Stainless Ltd.','Jindal Steel','John Deere','JSPL','JUSCO','Kanbay','Keane India','KEC','KK Builders','Kony Labs','L &amp; T ECC','L &amp; T IES','L &amp; T Heavy Engg.','L &amp; T Ltd.','Lafarge India','LANCO','Mahindra British Telecom','Mahindra (FES)','Mahindra &amp; Mahindra','Maruti','Matix Fertilisers','MECON','Metalsa','Microsoft','Minda','Motorola','Mu Sigma','Murugappa Group','Nagra India','NDPL','NECO Jaiswal','NMDC','Novell Software','NTPC','Nucleus Software','Oracle India Ltd.','One 97','Piaggio','PCS','Perot Systems','Pradeep Phospate','Pradhan (NGO)','Power Grid Corporation','Punj Lloyd','Rancore','Reliance Energy','Reliance Infra','Reliance Power','Reynault-Nissan','RPSG-CESC','Samtel','Samsung Heavy','Sankalp Semiconductors','Sapient','Sasken','SEL','Siemens','Simplex Infrastructure','SISC','SISO','Skytech Solutions','SnP Capital IQ','Soma Enterprise','Sony India','SPCL','SPML','Sterlite','Suzuki Powertrain','Syntel','TACO','Tata Auto Components','Tata Cummins','Tata Motors','Tata Power','Tata Projects','Tata Ryersons','Tata Steel','Tata Steel (GS)','Tata Steel IT Division','Tata Technologies','Tata Tinplate','Tayo Rolls Ltd.','TCE','TCIL','TCS','Tech Mahindra','TEGA Industries','TELCON','Thyssen Krupp Steel','TIME','TIMKEN','TINPLATE','TRF Ltd.','TVS Motors','UBEST','Unisys','Usha Martin','Vardhman Steel','Vedanta','Verizon','Videocon','Virtusa','Visa Steel','Vizag Steel','VSNL','Welspun','WIPRO','Wipro VLSI');
+	$numcols=4;
+	while(count($company)%$numcols) {
+		array_push($company,'&nbsp;');
+	}
+	$numrows=count($company)/$numcols;
+?>
+<div id="wrapper_sec">
+<div class="main_content">
+<div class="pageheading">
+  <span>Our Past Recruiters</span>
+</div>
+<p></p>
+<table class="pagecontent" cellpadding="10">
+<?php
+for($i=0;$i<$numrows;$i++) {
+	if($i%2==0)
+	echo "<tr class='tabledark'>";
+	else
+	echo "<tr class='tablelight'>";
+	for ($j=0;$j<$numcols;$j++) {
+		echo "<td style='padding-left:5px;'>".$company[$i+$j*$numrows].'</td>';
+	}
+	echo '</tr>';
+}
+?>
+</table>
+
+<p>&nbsp;</p>
+
+</div>
+</div>
+
+<div class="col2">
+<?php include '../newsidepanel.php'?>
+</div>
+<div class="clear">
+<!--footer starts here -->
+<?php include $root.'footer1.php' ?>
+<!-- footer ends here -->
+
+</div></body></html>

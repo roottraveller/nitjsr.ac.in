@@ -1,0 +1,92 @@
+<?php
+error_reporting(0);
+$root='../../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >	
+
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+
+<div class="main_content">
+<div class="pageheading">
+  <span>BAJA SAE</span>
+</div>
+<div class="pagecontent">
+<img src="<?php echo $root ?>images/bajasae2.jpg" title="The Team Daksh" alt="Baja SAE" class="pageimg" />
+<p></br>Team Daksh participates in the event BAJA organised by SAE INDIA and SAE INTERNATIONAL. In this event we design, modify and fabricate a prototype of a rugged, single seated All Terrain Vehicle (ATV) with serious off-roading capabilities. The vehicle must be safe, easily transportable and fun to drive. SAE sets restriction on the engine, dimensions and other components being used in the vehicle so that the knowledge, creativity and imagination of the students is challenged. Right from designing and analysis of the 3D model to complete fabrication is done in the workshop of the college only by the B.Tech students.</p>
+<p>We have participated twice in the Indian event winning the Best Engg. Design award and the Go Green award for least emissions in the year 2010 and 2011 respectively. Our ATV finished 3rd in the endurance race in 2011. Team Daksh was the only team from India to qualify for dynamic event in BAJA SAE SOUTH AFRICA in 2010 and was awarded as the Safest Vehicle.  Dr. Ratan Tata met and congratulated the team for their incredible innovative design and achievement in Jamshedpur.</p>
+<p>Presently the team is working on the designing of a new ATV , which includes various new technologies being developed by the team itself , for the Virtual BAJA 2012. The team is being guided by our faculty advisor Dr. Sanjay and being lead by the team captain Shashank Mishra. The other members of the team are Pramanik, Surya Prakash, Ritesh Joshi, NK Sharma, Shubham Kumar,  Mayank Roy, Kartik Kumar, Kishan Kumar, Md sarfarz, Shubham Sagar Chouhan, Ravi Shankar, Harshit Barnwal, Ankur Srivastava, Sunny Sankit, Aman Jain , Pooja Priyadarshini, Priya Kumari and Ashish.</br></br>
+</p>
+
+
+<div class="clear"></div>
+<span class="backbtn"><a href="<?php echo $root;?>sw/activities/"> &lt;&ndash; Go Back</a></span>
+</div>
+ </div>
+</div>
+<div class="col2">
+<?php include '../../sidepanel.php'?>
+</div>
+<div class="clear"></div>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

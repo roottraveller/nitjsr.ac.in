@@ -1,0 +1,88 @@
+<?php
+error_reporting(0);
+$root='../../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >
+
+<?php include $root.'newpagefolder.php' ?>
+</div>
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>M.Tech Programme</span>
+</div>
+<div class="pagecontent">
+
+<span class="pagesubheading">Mechanical Engineering Department</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+<p>Mechanical engineering department has been running a four semester M. Tech programme in Computer Integrated Design and Manufacturing since 1990 with a view to impart updated technical education to mechanical engineering graduates who can successfully shoulder the technical challenges of the nation.</p><p>Technology for product development with zero defects is the need of the day. Our M.Tech programme is an attempt to focus on the techniques required in the process of product development of zero tolerance and zero defects. The course covers design, manufacturing, optimization, and management. During the first two semesters, theoretical knowledge of the advanced subjects are given through course, work and during the last two semesters the students have to do project work in the department/ nearby reputed industries/ research and development organizations like Tata Steel, Tata Engineering, Tata Power, Tata Cummins, Timken India, Usha Martin, Usha Beltron, NML Jamshedpur, etc. where students acquire first hand exposure to advanced technologies under working condition. We have a separate CAD Laboratory in the department for M. Tech students besides a central Computer centre. The institute is going to setup a CAD/CAM laboratory as a central facility in the near future where all latest tools for analytical solutions will be available.</p>
+</div>
+</div>
+
+ 
+<div class="col2">
+<?php include '../../newsidepanelfolder.php'?>
+</div>
+<div class="clear"></div>
+</div>
+<!--footer starts here -->
+<?php include $root.'footer1.php' ?>
+<!-- footer ends here -->
+
+</body></html>

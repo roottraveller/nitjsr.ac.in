@@ -1,0 +1,101 @@
+<?php $root='../../../';
+?>
+        
+        <style>
+
+            /* Demo styles */
+            html,body{background:#fff;margin:0;}
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:900px;margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:600px}
+
+
+        </style>
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+
+<body>
+<script>
+    $("body").text("jQuery works");
+</script>
+<div id="bg" >
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>NIT Jamshedpur Slideshow</span>
+</div>
+        <!-- load jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+        <!-- load Galleria -->
+        <script src="../../galleria-1.2.9.min.js"></script>
+
+
+    </head>
+<body>
+    <div class="content">
+        
+
+        <!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+<!--If you want separate thumbnails (recommended), just add them as a link:
+
+<div id="galleria">
+    <a href="/img/large1.jpg"><img src="/img/thumb1.jpg" data-title="My title" data-description="My description"></a>
+    <a href="/img/large2.jpg"><img src="/img/thumb2.jpg" data-title="Another title" data-description="My <em>HTML</em> description"></a>
+</div>
+-->
+
+        <div id="galleria">
+                   <img src="images/1.jpg">
+
+
+<!--To add any caption to the image use this below that images "img src" :)
+                    data-title="Biandintz eta zaldiak"
+                    data-description="Horses on Bianditz mountain, in Navarre, Spain."-->
+
+<img src="images/2.jpg">
+<img src="images/3.jpg">
+<img src="images/4.jpg">                   
+<img src="images/5.jpg">
+<img src="images/6.jpg">
+<img src="images/7.jpg">
+<img src="images/8.jpg">
+<img src="images/9.jpg">
+<img src="images/10.jpg">
+<img src="images/11.jpg">
+<img src="images/12.jpg">
+<img src="images/13.jpg">
+<img src="images/14.jpg">
+<img src="images/15.jpg">
+        </div>
+
+    </div>
+
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.min.js');
+
+
+    // Initialize Galleria
+    Galleria.run('#galleria', {
+    transition: 'fade',
+    imageCrop:false,
+    autoplay: 2000 // will move forward every 7 seconds
+});  
+
+    </script>
+</div></div>
+<div class="clear">
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+ 
+

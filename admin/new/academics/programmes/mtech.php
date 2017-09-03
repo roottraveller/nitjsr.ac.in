@@ -1,0 +1,98 @@
+<?php
+error_reporting(0);
+$root='../../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >
+
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+  <span>M.Tech Programme</span>
+</div>
+<div class="pagecontent">
+<p></br></p>
+<a href="../../department/mtechmech.php" class="deptboxl"><div class="deptimg" ><img src="<?php echo $root;?>dimages/cidm.jpeg" alt="" height="90px" width="100px"></img></div></br>Computer Integrated Design and Manufacturing </a>
+<a href="../../department/mtechmeta.php" class="deptboxr"><div class="deptimg" ><img src="<?php echo $root;?>dimages/extract.jpeg" alt="" height="90px" width="100px"></img></div></br>Extractive Metallurgy</a><p></br></p>
+<a href="../../department/mtechmeta.php" class="deptboxl"><div class="deptimg" ><img src="<?php echo $root;?>dimages/foundry.jpeg" alt="" height="90px" width="100px"></img></div></br>Foundry Technology </a>
+<div class="deptboxr"><div class="deptimg" ><img src="<?php echo $root;?>dimages/industry.jpeg" alt="" height="90px" width="100px"></img></div></br>Industrial and Management Engineering</a></div><p></br></p>
+<a href="../../department/mtecheee.php" class="deptboxl"><div class="deptimg" ><img src="<?php echo $root;?>dimages/power.jpeg" alt="" height="90px" width="100px"></img></div></br>Power System</a>
+<div class="deptboxr"><div class="deptimg" ><img src="<?php echo $root;?>dimages/structe.jpeg" alt="" height="90px" width="100px"></img></div></br>Structural Engineering</a><p></br></p></div><p></br></p>
+<a href="../../department/mtechche.php" class="deptboxl"><div class="deptimg" ><img src="<?php echo $root;?>dimages/sse.jpeg" alt="" height="90px" width="100px"></img></div></br>Surface Science and Engineering </a>
+<a href="../../department/ece_m.tech.php" class="deptboxr"><div class="deptimg" ><img src="<?php echo $root;?>dimages/vlsi.jpeg" alt="" height="90px" width="100px"></img></div></br>VLSI design and embedded systems</a><p></br></p>
+<a href="../../department/mtechmech.php" class="deptboxl"><div class="deptimg" ><img src="<?php echo $root;?>dimages/thermal.jpeg" alt="" height="90px" width="100px"></img></div></br>Thermal and Fluid Engineering</a><p></br></p>
+
+<span class="pagesubheading">Stipend</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+<p>Candidates who have qualified in GATE will be paid a stipend of Rs. 5,000/- per month for 24 months subject to their satisfactory progress. Sponsored candidates with 60% (55% for SC/ST) marks in qualifying examination will not be required to qualify in GATE. They will have to produce sponsorship certificate from their employer stating that the candidate will be paid salary by parent organization during the course of study. Self financed candidates with 60% (55% for SC/ST) or more marks in qualifying examinations may be considered for admission without stipend, if seats are available. Seats for SC/ST candidates are reserved as per rules of the government of India. No TA/DA is admissible for attending interview. The candidate must produce valid GATE score in original (where applicable) at the time of interview.</p>
+</div>
+</div>
+
+ 
+<div class="col2">
+<?php include '../../sidepanel.php'?>
+</div>
+<div class="clear"></div>
+</div>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

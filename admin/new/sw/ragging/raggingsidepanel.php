@@ -1,0 +1,58 @@
+<!-- Top Student -->  
+                        		<div class="rtab">
+                                	
+                                    <div class="rtab_content" id="rtab1" style="display:none;">
+									<div class="lists">
+                                    	<ul >
+                                        	<a href="index.php"><li>
+                                               <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>   	 
+                                                <div class="description">
+                                                	Home
+                                                </div>
+												
+                                           </li></a> 
+                                           <a href="au.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                	 Undertakings	
+                                                </div> 
+                                           </li></a>
+                                           <a href="cr.php"><li>
+                                              <div class="thumb"><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                 Recommendations
+                                                </div> 
+                                           </li></a>
+
+                                           <a href="fli.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                	Factors listed
+                                                </div> 
+                                           </li></a>
+<a href="pun.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Punishments
+                                                </div> 
+                                           </li></a>                                           
+
+<a href="ns.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Notice
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>new/uploads/AntiRagging.pdf"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Committee '13
+                                                </div> 
+                                           
+                                           </li></a>
+
+                                        </ul>
+										</div>
+                                        <div class="clear"></div>
+                                    </div>
+									</div>

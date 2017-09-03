@@ -1,0 +1,90 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur | Student Councelling Center</title>  
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+
+</head>
+<body>
+<div id="bg" >
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+
+
+
+<div class="main_content">
+<div class="pageheading">
+  <span> Facilities under TEQIP</span>
+</div>
+<div class="pagecontent">
+
+</br>
+<span class="pagesubheading">Main Laboratories / Workshops available : </span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<ol>
+<li>Central workshop</li><li> CAD Laboratory</li><li> Heat Transfer Laboratory</li><li> I.C. Engine Laboratory</li><li>Fluid Mechanics</li><li> Welding laboratory</li><li> Control System Laboratory</li><li> Electrical Machines Laboratory</li><li> Digital Signal Processing Laboratory</li><li> Metrology Laboratory</li><li> Material Science Laboratory</li><li> Microwave Laboratory</li><li> Geotechnical Engineering laboratory</li><li> Environmental Engineering Laboratory</li></ol>
+<span class="pagesubheading">Library Facilities available :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<ul><li>Digital Central Library with Libsys Software, e-journals</li><li>
+General and SC/ST Book bank facilities</li><li>
+Books in Stack room : 55,144</li><li>
+Books in general book bank : 5906</li><li>
+Books in SC/ST book bank : 23022.</li>
+</ul>
+
+<span class="pagesubheading">Computer Center Facilities available :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<ul><li>
+25 HCL Server</li><li> 150 PCs</li><li> Campus Wide LAN</li><li>
+HP Laptops and Laser Printers</li></ul>
+<span class="pagesubheading">Research Facilities available :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<p>Research facilities for M.Tech and Ph.D. in  :- </p><ul><li>Power System Heat Transfer</li><li> Geotechnical and Structure Engineering</li><li> Tribology </li><li> CAD/CAM</li><li> Manufacturing Science</li><li> Extractive Metallurgy</li><li> Surface Science & Engineering</li></ul>
+
+<span class="pagesubheading">Other major facilities available :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<ul><li>VLSI Center</li><li> CAD/CAM Laboratory</li><li> Advanced Photonics Laboratory</li></ul>
+
+<span class="pagesubheading">Special strengths of the institution :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<p>The Institute has the unique distinction of being surrounded by giant and medium scale industries like Tata Steel, Tata Motors, Indian Steel Wire Products, Tata Tubes, Tinplate Company, Tata Timken etc. and by reputed institutes like the National Metallurgical Laboratory, Xavier Labour Relations Institute and National Institute of Foundry and Forge Technology, Ranchi .
+</p>
+
+<span class="pagesubheading">Unique areas of research / innovations completed in last 3 years or currently in progress in the institution :</span>
+<img src="<?php echo $root?>images/h2.png" width="100%" />
+
+<p>Under UNICEF project, a See-Saw operated water pump for nearby rural schools has been developed by Department of Mechanical Engineering which is working satisfactorily.</p></div>
+</div>
+</div>
+<div class="col2" >
+<!--sidetab starts here-->
+<?php include 'sidepanel.php' ?>
+</div>
+
+<!--sidetab ends-->
+<div class="clear"></div>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

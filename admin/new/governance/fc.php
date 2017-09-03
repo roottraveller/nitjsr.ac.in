@@ -1,0 +1,151 @@
+<?php
+error_reporting(0);
+$root='../';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Description" content="Official Website: Information about programs offered, departments, activities, research, consultancy, admissions, events, and contacts." />
+<meta name="Keywords" content="nit jamshedpur, nit jsr, nit, jamshedpur, technology, competitions, events, workshop, exhibition, science, fest, technical, ojass, utkarsh, robotics" />
+<meta name=Author content="Nishant Kumar" />
+<meta http-equiv="contact" content="nishantkumar35@gmail.com" />
+<link rel="SHORTCUT ICON" href="<?php echo $root;?>images/logo.ico" type="image/x-icon" />   
+<title>NIT Jamshedpur</title>  
+
+<script type="text/javascript">
+var idd=1;
+function vsbl(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+var b=document.getElementById("chk_butn"+idd);
+var dv1=document.getElementById("chk"+id);
+var dv2=document.getElementById("chk"+idd);
+dv2.style.visibility='hidden';
+dv1.style.visibility='visible';
+a.style.background='#4F99C5';
+a.style.color='#fff';
+b.style.background='#ffffff';
+b.style.color='#C02630';
+idd=id;
+}
+}
+function btn(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#4F99C5';
+}
+}
+function btn_r(id)
+{
+if(id!=idd)
+{
+var a=document.getElementById("chk_butn"+id);
+a.style.color='#C02630';
+}
+}
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/style1.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $root;?>new/css/reset.css">
+
+</head>
+<body>
+<div id="bg" >
+
+<?php include $root.'header.php' ?>
+</div>
+<div id="wrapper_sec" >
+<div class="main_content">
+<div class="pageheading">
+<span>Finance Committee</span>
+  </div>
+<div class="pagecontent">
+    <p>The Finance Committee  of the National Institute of Technology (NIT) - Jamshedpur (Jharkhand) as per Section 10(1) of the NIT Statutes and with the approval of the competent authority is as follows: </p>
+
+    
+<?php $i=0;?>
+<table class="pagetablecontent_new" border="0">
+
+	<tr class="tablehead">
+    	<td>SI. No.</td>
+        <td>Nomination under</td>
+	<td>Name and Designation of nominated persons </td>
+ 	<td>Will Serve as</td>
+    </tr>
+	<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+<td>1.</td>
+<td>Section 10 <br/>Clause (1)</td>    	
+<td><b>Prof. V.S.Chauhan</b><br />
+             Director,<br/> International Centre for Genetic Engineering and Bio-technology,<br/> Delhi</td>
+<td>Chairman <br/> (upto 05.02.2015)</td>
+</tr>
+    
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+<td>2.</td>
+<td>(ii) </td> 
+<td><b>Prof. Rambabu Kodali</b><br />Director,<br />National Institute of Technology Jamshedpur, <br/> Jamshedpur (Jharkhand)</td>
+<td>Ex-Officio<br />Member</td>
+</tr>
+    
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+   <td>3.</td>
+   <td>(iii) </td>
+   <td>Additional Secretary/ Joint Secretary Incharge<br/>
+         dealing with Technical Education,<br/>
+         Department of Higher Education,<br/>
+         Ministry of Human Resource Development.</td>
+   <td>Member</td>
+</tr>
+    
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+    <td>4.</td>
+    <td>(iii) </td> 
+    <td>Financial Adviser,<br/>
+           Department of Higher Education,<br/>
+           Ministry of Human Resource Development</td>
+    <td>Member</td>
+</tr>
+    
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+    <td>5.</td>
+    <td>(iv) </td>
+    <td><b>Prof. S G Deshmukh</b><br />Director,<br />ABV IIITM <br/> Gwalior - 474010, Madhya Pradesh</td>
+    <td>Member<br />(nominated by the Board)</td>
+</tr>
+   
+ <tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+    <td>6.</td>
+    <td>(iv) </td>
+    <td><b>Prof. A. M. Tigga</b><br />Professor,<br />NIT Jamshedpur</td>
+    <td>Member<br />(nominated by the Board)</td>
+</tr>
+
+<tr class="table<?php echo (++$i%2)?"light":"dark"; ?>">
+    <td>7.</td>
+    <td>(v) </td>
+    <td><b>Prof. Shalendra Kumar</b><br />Registrar (I/c),<br />National Institute of Technology, Jamshedpur <br/> Jamshedpur (Jharkhand)</td>
+    <td>Ex-officio <br/> Member-Secretary</td>      
+</tr>
+</table>
+<br/>
+</div>
+</div>
+</div>
+ <!--sidetab starts here-->
+<div class="col2">
+<?php include '../sidepanel.php'?>
+</div>
+<!--sidetab ends-->
+<div class="clear"></div>
+<!--footer starts here -->
+<?php include $root.'footer.php' ?>
+<!-- footer ends here -->
+
+</body></html>

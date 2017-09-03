@@ -1,0 +1,61 @@
+<!-- Top Student -->  
+                        		<div class="rtab">
+                                	
+                                    <div class="rtab_content" id="rtab1" style="display:none;">
+									<div class="lists">
+                                    	<ul >
+                                        	<a href="<?php echo $root?>facility/library.php"><li>
+                                               <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>   	 
+                                                <div class="description">
+                                                	Home
+                                                </div>
+												
+                                           </li></a> 
+                                           <a href="<?php echo $root?>facility/library/committee.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                	Committee
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/staff.php"><li>
+                                              <div class="thumb"><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                	Staff
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/timings.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div> 
+                                                <div class="description">
+                                                	Operation timings
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/services.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Services
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/journals.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Online journals
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/magazines.php"><li>
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                	Magazines
+                                                </div> 
+                                           </li></a>
+                                           <a href="<?php echo $root?>facility/library/contact.php"><li class="nobg" >
+                                              <div class="thumb" ><img src="<?php echo $root?>new/images/fancy_right.png"  alt="" height="20px" width="20px" /></div>	
+                                                <div class="description">
+                                                  Contact us
+                                               
+                                                </div> 
+                                           </li></a>
+                                        </ul>
+										</div>
+                                        <div class="clear"></div>
+                                    </div>
+									</div>
